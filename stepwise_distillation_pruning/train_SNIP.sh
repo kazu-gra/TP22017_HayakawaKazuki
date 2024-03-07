@@ -1,0 +1,3 @@
+python train.py --prune_mode SNIP --sparsity 0.6 --score_flag True --score_path /workspace/Outputs/snip_score/snip60_1.pth --pretrained  /workspace/Outputs/train-pre/weights/best.pt --save_dir /workspace/Outputs/snip_60_1_g
+
+python train.py --prune_mode SNIP --sparsity 0.6 --score_flag False --score_path /workspace/Outputs/snip_score/snip60_1.pth --pretrained  /workspace/Outputs/train-pre/weights/best.pt --save_dir /workspace/Outputs/snip_60_1
